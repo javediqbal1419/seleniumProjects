@@ -16,7 +16,7 @@ public class NgOperationReportPDF {
 	
 	@BeforeTest
 	public void setUpTest() {
-		System.setProperty("webdriver.chrome.driver", "E:\\project\\SeleniumJavaFrameWork\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\project\\seleniumProjects\\SelMMAPlus\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);	
 	}
@@ -51,6 +51,7 @@ public class NgOperationReportPDF {
 	@AfterTest
 	public void tearDownTest() {
 		driver.close();
+		driver.quit();
 		System.out.println("Test Completed Successfully : ");
 	}
 }

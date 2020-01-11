@@ -4,6 +4,8 @@ import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
 import static org.testng.Assert.*;
+
+import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -17,7 +19,7 @@ public class DemoQA {
 
   @BeforeTest
   public void setUp() throws Exception {
-	  System.setProperty("webdriver.chrome.driver", "E:\\project\\SeleniumJavaFrameWork\\driver\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "E:\\project\\seleniumProjects\\SelMMAPlus\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
     baseUrl = "https://www.katalon.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
