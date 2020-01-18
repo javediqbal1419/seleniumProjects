@@ -14,7 +14,6 @@ public class Apache_POI_TC {
     ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData,"Sheet1");
     
     String projectPath = System.getProperty("user.dir");
-    System.out.println("This is Project Path :  "+projectPath);
     String driverExecutablePath = projectPath+"\\driver\\chromedriver.exe";
 	System.setProperty("webdriver.chrome.driver", driverExecutablePath);
 	WebDriver driver = new ChromeDriver(); 
