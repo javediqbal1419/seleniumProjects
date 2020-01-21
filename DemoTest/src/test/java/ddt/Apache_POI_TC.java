@@ -19,7 +19,6 @@ public class Apache_POI_TC {
 	WebDriver driver = new ChromeDriver(); 
 	driver.manage().window().maximize();
 
-
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     driver.get(Constant.URL);

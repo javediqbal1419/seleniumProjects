@@ -1,0 +1,45 @@
+2020-01-20 12:18:45,337 INFO  [Log] **************************************************************************************** 
+2020-01-20 12:18:45,338 INFO  [Log] **************************************************************************************** 
+2020-01-20 12:18:45,338 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-20 12:18:45,338 INFO  [Log] **************************************************************************************** 
+2020-01-20 12:18:45,338 INFO  [Log] **************************************************************************************** 
+2020-01-20 12:18:45,340 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2020-01-20 12:18:45,341 INFO  [Log] Opening Browser 
+2020-01-20 12:18:45,545 INFO  [Log] Not able to open the Browser --- The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases 
+2020-01-20 12:18:45,808 INFO  [Log] Closing the browser 
+2020-01-20 12:18:45,808 ERROR [Log] Not able to Close the Browser --- null 
+2020-01-20 12:18:45,959 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-20 12:18:45,960 INFO  [Log] X 
+2020-01-20 12:18:45,960 INFO  [Log] X 
+2020-01-20 12:18:45,960 INFO  [Log] X 
+2020-01-20 12:18:45,960 INFO  [Log] X 
+2020-01-20 12:41:34,176 INFO  [Log] **************************************************************************************** 
+2020-01-20 12:41:34,179 INFO  [Log] **************************************************************************************** 
+2020-01-20 12:41:34,179 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-20 12:41:34,179 INFO  [Log] **************************************************************************************** 
+2020-01-20 12:41:34,179 INFO  [Log] **************************************************************************************** 
+2020-01-20 12:41:34,185 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2020-01-20 12:41:34,189 INFO  [Log] Opening Browser 
+2020-01-20 12:41:34,369 INFO  [Log] Not able to open the Browser --- The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases 
+2020-01-20 12:41:34,698 INFO  [Log] Closing the browser 
+2020-01-20 12:41:34,698 ERROR [Log] Not able to Close the Browser --- null 
+2020-01-20 12:41:34,809 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-20 12:41:34,809 INFO  [Log] X 
+2020-01-20 12:41:34,809 INFO  [Log] X 
+2020-01-20 12:41:34,809 INFO  [Log] X 
+2020-01-20 12:41:34,809 INFO  [Log] X 
+2020-01-20 12:45:20,413 INFO  [Log] **************************************************************************************** 
+2020-01-20 12:45:20,414 INFO  [Log] **************************************************************************************** 
+2020-01-20 12:45:20,414 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-20 12:45:20,414 INFO  [Log] **************************************************************************************** 
+2020-01-20 12:45:20,414 INFO  [Log] **************************************************************************************** 
+2020-01-20 12:45:20,417 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2020-01-20 12:45:20,444 INFO  [Log] Opening Browser 
+2020-01-20 12:45:20,841 INFO  [Log] Not able to open the Browser --- The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases 
+2020-01-20 12:45:21,229 INFO  [Log] Closing the browser 
+2020-01-20 12:45:21,229 ERROR [Log] Not able to Close the Browser --- null 
+2020-01-20 12:45:21,359 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-20 12:45:21,359 INFO  [Log] X 
+2020-01-20 12:45:21,359 INFO  [Log] X 
+2020-01-20 12:45:21,359 INFO  [Log] X 
+2020-01-20 12:45:21,359 INFO  [Log] X 
