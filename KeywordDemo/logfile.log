@@ -1,0 +1,25 @@
+2020-01-25 10:38:23,342 INFO  [Log] **************************************************************************************** 
+2020-01-25 10:38:23,343 INFO  [Log] **************************************************************************************** 
+2020-01-25 10:38:23,346 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-25 10:38:23,346 INFO  [Log] **************************************************************************************** 
+2020-01-25 10:38:23,346 INFO  [Log] **************************************************************************************** 
+2020-01-25 10:38:23,348 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2020-01-25 10:38:23,350 INFO  [Log] Opening Browser 
+2020-01-25 10:38:37,183 INFO  [Log] Chrome browser started 
+2020-01-25 10:38:37,731 INFO  [Log] Navigating to URL 
+2020-01-25 10:40:29,540 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2020-01-25 10:40:39,572 ERROR [Log] Not able to click --- no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='noo-site']/a"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JAVED', ip: '192.168.119.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\JAVEDI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f0f67bfb42ed0ffc1d1e67194eb2f1b
+*** Element info: {Using=xpath, value=.//*[@id='noo-site']/a} 
+2020-01-25 10:40:39,707 INFO  [Log] Closing the browser 
+2020-01-25 10:40:40,758 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-25 10:40:40,758 INFO  [Log] X 
+2020-01-25 10:40:40,758 INFO  [Log] X 
+2020-01-25 10:40:40,758 INFO  [Log] X 
+2020-01-25 10:40:40,758 INFO  [Log] X 

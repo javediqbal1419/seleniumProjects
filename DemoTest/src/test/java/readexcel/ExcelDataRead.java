@@ -24,7 +24,7 @@ public class ExcelDataRead {
 			File file = new File(Constants.Path_TestData, Constants.File_TestData);
 			FileInputStream inputStream = new FileInputStream(file);
 			ExcelWBook = new XSSFWorkbook(inputStream);
-			Sheet dataSheet = ExcelWBook.getSheet(SheetName);
+			XSSFSheet dataSheet = ExcelWBook.getSheet(SheetName);
 			int rowCount = dataSheet.getLastRowNum()-dataSheet.getFirstRowNum();
 			for (int i = 0; i<rowCount+1; i++) {
 				org.apache.poi.ss.usermodel.Row row = dataSheet.getRow(i);
