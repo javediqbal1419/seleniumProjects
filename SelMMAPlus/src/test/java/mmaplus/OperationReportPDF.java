@@ -20,9 +20,9 @@ public class OperationReportPDF {
 		driver.manage().window().maximize();
 	    driver.findElement(By.name("userName")).click();
 	    driver.findElement(By.name("userName")).clear();
-	    driver.findElement(By.name("userName")).sendKeys("developer");
+	    driver.findElement(By.name("userName")).sendKeys("----");
 	    driver.findElement(By.name("password")).clear();
-	    driver.findElement(By.name("password")).sendKeys("developer@1122");
+	    driver.findElement(By.name("password")).sendKeys("-----");
 	    driver.findElement(By.name("password")).click();
 	    driver.findElement(By.name("password")).click();
 	    driver.findElement(By.name("Submit")).click();
