@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="InetBankingV1" duration-ms="33110" started-at="2020-01-30T11:00:25Z" finished-at="2020-01-30T11:00:58Z">
+  <suite name="InetBankingV1" duration-ms="425833" started-at="2020-02-27T15:42:41Z" finished-at="2020-02-27T15:49:47Z">
     <groups>
     </groups>
-    <test name="BankingApp Test" duration-ms="33110" started-at="2020-01-30T11:00:25Z" finished-at="2020-01-30T11:00:58Z">
+    <test name="BankingApp Test" duration-ms="425833" started-at="2020-02-27T15:42:41Z" finished-at="2020-02-27T15:49:47Z">
       <class name="com.inetbanking.testCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@39c0f4a]" name="setup" is-config="true" duration-ms="13612" started-at="2020-01-30T11:00:25Z" finished-at="2020-01-30T11:00:39Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@39c0f4a]" name="setup" is-config="true" duration-ms="27493" started-at="2020-02-27T15:42:42Z" finished-at="2020-02-27T15:43:09Z">
           <params>
             <param index="0">
               <value>
@@ -18,25 +18,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@39c0f4a]" name="loginTest" duration-ms="3241" started-at="2020-01-30T11:00:39Z" finished-at="2020-01-30T11:00:42Z">
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@39c0f4a]" name="loginTest" duration-ms="1455" started-at="2020-02-27T15:43:09Z" finished-at="2020-02-27T15:43:11Z">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=79.0.3945.130): User or Password is not valid
+  (Session info: chrome=80.0.3987.122): User or Password is not valid
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'JAVED', ip: '192.168.119.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+System info: host: 'JAVED', ip: '192.168.119.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\JAVEDI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 34bdfcf8781177f7ea91c3c84f8eefae]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\JAVEDI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ac53b18b4beb62ea3bd2c5469ee6a283]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=79.0.3945.130): User or Password is not valid
+  (Session info: chrome=80.0.3987.122): User or Password is not valid
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'JAVED', ip: '192.168.119.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+System info: host: 'JAVED', ip: '192.168.119.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\JAVEDI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 34bdfcf8781177f7ea91c3c84f8eefae
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\JAVEDI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ac53b18b4beb62ea3bd2c5469ee6a283
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -76,13 +76,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@39c0f4a]" name="tearDown" is-config="true" duration-ms="1546" started-at="2020-01-30T11:00:42Z" finished-at="2020-01-30T11:00:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@39c0f4a]" name="tearDown" is-config="true" duration-ms="1068" started-at="2020-02-27T15:43:11Z" finished-at="2020-02-27T15:43:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.inetbanking.testCases.TC_LoginTest_001 -->
       <class name="com.inetbanking.testCases.TC_AddCustomerTest_003">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@1794d431]" name="setup" is-config="true" duration-ms="9087" started-at="2020-01-30T11:00:44Z" finished-at="2020-01-30T11:00:53Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@1794d431]" name="setup" is-config="true" duration-ms="388623" started-at="2020-02-27T15:43:12Z" finished-at="2020-02-27T15:49:41Z">
           <params>
             <param index="0">
               <value>
@@ -93,26 +93,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="addNewCustomer()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@1794d431]" name="addNewCustomer" duration-ms="4438" started-at="2020-01-30T11:00:53Z" finished-at="2020-01-30T11:00:57Z">
+        <test-method status="FAIL" signature="addNewCustomer()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@1794d431]" name="addNewCustomer" duration-ms="5439" started-at="2020-02-27T15:49:41Z" finished-at="2020-02-27T15:49:46Z">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=79.0.3945.130): User or Password is not valid
+  (Session info: chrome=80.0.3987.122): User or Password is not valid
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'JAVED', ip: '192.168.119.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+System info: host: 'JAVED', ip: '192.168.119.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\JAVEDI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61884}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 57355a13901d909c467ce555c0e8b578
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\JAVEDI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58952}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f1d83c3bd2080704c8dede72c40b6923
 *** Element info: {Using=xpath, value=/html/body/div[3]/div/ul/li[2]/a}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=79.0.3945.130): User or Password is not valid
+  (Session info: chrome=80.0.3987.122): User or Password is not valid
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'JAVED', ip: '192.168.119.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+System info: host: 'JAVED', ip: '192.168.119.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\JAVEDI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61884}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 57355a13901d909c467ce555c0e8b578
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\JAVEDI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58952}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f1d83c3bd2080704c8dede72c40b6923
 *** Element info: {Using=xpath, value=/html/body/div[3]/div/ul/li[2]/a}
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -159,7 +159,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@1794d431]" name="tearDown" is-config="true" duration-ms="841" started-at="2020-01-30T11:00:57Z" finished-at="2020-01-30T11:00:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@1794d431]" name="tearDown" is-config="true" duration-ms="775" started-at="2020-02-27T15:49:46Z" finished-at="2020-02-27T15:49:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
